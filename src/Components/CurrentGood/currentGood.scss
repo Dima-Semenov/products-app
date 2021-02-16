@@ -1,0 +1,27 @@
+.good {
+  border: 2px solid black;
+  width: 300px;
+  height: 130px;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  &__input {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__info {
+    width: 100%;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__complete {
+    background-color: rgb(94, 223, 94);
+  }
+}

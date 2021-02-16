@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+[DEMO](https://dima-semenov.github.io/products-app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Interview Project: Grocery List
+We need to build a grocery list web app. The goal is to make it easy for me to remember what food to buy at the grocery store. There is no backend for this application, and we're not asking you to build one, this is purely a frontend React problem so it should use local storage to maintain the list and the details of each entry between sessions.
 
-## Available Scripts
+There are two primary views: the list view and the entry view. 
 
-In the project directory, you can run:
+## Grocery List View
+On the list view, I can add entries, remove entries, toggle the status of that entry as either "ran out" or "have", see when the status toggle was last changed, and filter entries by status. The list view should always sort by priority first, and then alphabetically. Priority 1 is highest priority, 5 is the lowest. I should be able to filter for only "ran out", "have", or all, this will make it easy for when I'm shopping to see what I need to buy by filtering for the "ran out" status.
 
-### `npm start`
+## Grocery Entry View
+On the entry view, I can see all of the details of the entry, toggle its status, and view the history of when its status has ever changed. Each entry has a name for the item (e.g. bread, eggs, etc), status (ran out or have) and a priority (numbers 1 through 5). I should also be able delete the current entry here as well.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Guidelines
+Do not spend more than 4 hours working on this task. If we have a technical interview, and I hope we do, we will focus on enhancing this application and discussing how you worked through some of these problems. It's important that we see your best work, if that means that you do not satisfy all of the requirements here that is okay, we don't expect everyone to finish all parts of this in 4 hours. If you have to choose between refactoring and making one piece of this perfect and implementing the next feature, choose refactoring because we want to see how your best work looks. We want to see clear, correct code that uses the right data structures and patterns, and we want to see your style.
