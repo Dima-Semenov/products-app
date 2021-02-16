@@ -1,5 +1,4 @@
 [DEMO](https://dima-semenov.github.io/products-app/)
-
 # Interview Project: Grocery List
 We need to build a grocery list web app. The goal is to make it easy for me to remember what food to buy at the grocery store. There is no backend for this application, and we're not asking you to build one, this is purely a frontend React problem so it should use local storage to maintain the list and the details of each entry between sessions.
 
