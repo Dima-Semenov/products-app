@@ -12,6 +12,7 @@ export const CurrentGood = ({good, handleClick, handleStatusChange }) => {
           checked={good.complete}
           className="good__input"
         />
+        {/* comment */}
       </div>
       <div className="good__info" >
         <h1 className="good__title">{good.name}</h1>
