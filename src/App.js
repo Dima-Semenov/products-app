@@ -32,6 +32,8 @@ function App() {
   const [listOfGoods, setListOfGoods] = useLocalStorage('goods' ,[]);
   const [priority, setPriority] = useState(1);
 
+  //comment
+
   const handleSubmit = (event) => {
     event.preventDefault()
 
